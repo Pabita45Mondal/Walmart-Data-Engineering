@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Airflow
+airflow_dbt_project/logs/
+airflow_dbt_project/airflow.db
+airflow_dbt_project/webserver_config.py
+
+# dbt generated files
+airflow_dbt_project/walmart_project/target/
+airflow_dbt_project/walmart_project/dbt_packages/
+airflow_dbt_project/walmart_project/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
